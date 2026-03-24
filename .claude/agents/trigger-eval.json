@@ -1,0 +1,122 @@
+[
+  {
+    "query": "I need to create an agent that analyzes SQL queries for performance issues",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me build an agent for automated code refactoring that can analyze large codebases and suggest improvements",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to create a new Claude agent that monitors CI/CD pipelines and reports on build failures",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you help me design an agent that performs comprehensive documentation analysis and generates missing docs?",
+    "should_trigger": true
+  },
+  {
+    "query": "I need an agent definition for analyzing API endpoints and generating OpenAPI specifications",
+    "should_trigger": true
+  },
+  {
+    "query": "Create an agent that can perform dependency analysis across multiple projects and identify outdated packages",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to build an agent for load testing that can simulate traffic and generate performance reports",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me create an agent that analyzes database schemas and suggests optimization strategies",
+    "should_trigger": true
+  },
+  {
+    "query": "I need an agent definition for code complexity analysis that produces detailed metrics reports",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you help me design an agent that performs automated accessibility testing on web applications?",
+    "should_trigger": true
+  },
+  {
+    "query": "Generate an agent that monitors GitHub pull requests and provides automated review feedback",
+    "should_trigger": true
+  },
+  {
+    "query": "Build me a new agent that can search the web and summarize research findings",
+    "should_trigger": true
+  },
+  {
+    "query": "Make me an agent that generates unit tests for TypeScript functions automatically",
+    "should_trigger": true
+  },
+  {
+    "query": "Create a code review agent that checks for security vulnerabilities in JavaScript code",
+    "should_trigger": true
+  },
+  {
+    "query": "I need to create a new agent using the forge-create-agent skill",
+    "should_trigger": true
+  },
+  {
+    "query": "I want Claude to always respond in a more formal tone when discussing technical documentation",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me create a skill that makes Claude better at explaining complex algorithms step-by-step",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to modify an existing agent to add more tools to its configuration",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you review my current agent definition and suggest improvements to its instructions?",
+    "should_trigger": false
+  },
+  {
+    "query": "I want to create a simple function that calculates code metrics, not a full agent",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me write a bash script that can be used by existing agents for file processing",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to understand the difference between agents and skills in the Forge platform",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you help me troubleshoot why my existing agent isn't being triggered correctly?",
+    "should_trigger": false
+  },
+  {
+    "query": "I want to create a workflow that chains multiple existing agents together",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me write documentation for an agent I've already created and deployed",
+    "should_trigger": false
+  },
+  {
+    "query": "Create an MCP tool for interacting with a REST API",
+    "should_trigger": false
+  },
+  {
+    "query": "Add a new skill to the project for validating environment configurations",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I configure an agent to use custom tools in Claude Code?",
+    "should_trigger": false
+  },
+  {
+    "query": "What are the best practices for writing agent prompts?",
+    "should_trigger": false
+  },
+  {
+    "query": "I want to use the skill-generator to create a new security audit skill",
+    "should_trigger": false
+  }
+]
