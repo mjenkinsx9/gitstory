@@ -88,7 +88,7 @@ export function parseGitLog(rawOutput: string): GitCommit[] {
 
 export function analyzeRepository(repoPath: string, maxCommits?: number): GitCommit[] {
   const maxCommitsArg = maxCommits !== undefined ? `-n ${maxCommits}` : '';
-  const command = `git log --format="${GIT_LOG_FORMAT}" --numstat ${maxCommitsArg}`;
+  const command = `git -c diff.renameLimit=999999 log --format="${GIT_LOG_FORMAT}" --numstat ${maxCommitsArg}`;
 
   const rawOutput = execSync(command, {
     cwd: repoPath,
