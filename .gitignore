@@ -17,5 +17,8 @@ dist/
 .env.*
 !.env.example
 
+# Worktrees
+.worktrees/
+
 # OS
 .DS_Store
